@@ -1,0 +1,113 @@
+body {
+  font-family: $font-family;
+  font-size: 16px;
+  font-weight: map-get($font-weight, small);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 4rem;
+  background-color: $Light-Gray;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2rem;
+}
+
+.first {
+  background-color: #fff;
+  padding: 2rem;
+
+  #{&}-heading {
+    @include first-spacing($Cyan);
+  }
+  #{&}-subheading {
+    @include first-spacing($Bright-Yellow);
+  }
+  #{&}-body {
+    color: $Grayish-Blue;
+    line-height: 1.5rem;
+  }
+}
+
+.second {
+  background-color: $Cyan;
+  padding: 2rem;
+  #{&}-heading {
+    @include first-spacing($Light-Gray);
+    font-size: 0.95rem;
+  }
+  #{&}-pricing {
+    @include first-spacing($Grayish-Blue);
+    & span {
+      color: $Light-Gray;
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+  #{&}-body {
+    color: $Light-Gray;
+    margin-bottom: 2rem;
+  }
+  button {
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
+    background-color: $Bright-Yellow;
+    border: none;
+    font-size: 1.05rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -6px #3e3c49;
+  }
+}
+
+.third {
+  background-color: $Cyan2;
+  padding: 2rem;
+  color: $Light-Gray;
+  #{&}-heading {
+    @include first-spacing($Light-Gray);
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    height: 50vh;
+    width: 50vw;
+    border-radius: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "f f"
+      "s t";
+  }
+
+  .first {
+    grid-area: f;
+  }
+  .second {
+    grid-area: s;
+  }
+  .third {
+    grid-area: t;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+  }
+}
