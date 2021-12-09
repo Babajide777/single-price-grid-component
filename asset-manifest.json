@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/single-price-grid-component/static/css/main.28ec424a.chunk.css",
+    "main.js": "/single-price-grid-component/static/js/main.9e64e558.chunk.js",
+    "main.js.map": "/single-price-grid-component/static/js/main.9e64e558.chunk.js.map",
+    "runtime-main.js": "/single-price-grid-component/static/js/runtime-main.074ce50d.js",
+    "runtime-main.js.map": "/single-price-grid-component/static/js/runtime-main.074ce50d.js.map",
+    "static/js/2.e86e59bb.chunk.js": "/single-price-grid-component/static/js/2.e86e59bb.chunk.js",
+    "static/js/2.e86e59bb.chunk.js.map": "/single-price-grid-component/static/js/2.e86e59bb.chunk.js.map",
+    "index.html": "/single-price-grid-component/index.html",
+    "static/css/main.28ec424a.chunk.css.map": "/single-price-grid-component/static/css/main.28ec424a.chunk.css.map",
+    "static/js/2.e86e59bb.chunk.js.LICENSE.txt": "/single-price-grid-component/static/js/2.e86e59bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.074ce50d.js",
+    "static/js/2.e86e59bb.chunk.js",
+    "static/css/main.28ec424a.chunk.css",
+    "static/js/main.9e64e558.chunk.js"
+  ]
+}
