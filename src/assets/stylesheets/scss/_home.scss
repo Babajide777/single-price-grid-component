@@ -24,9 +24,11 @@ main {
   #{&}-heading {
     @include first-spacing($Cyan);
   }
+
   #{&}-subheading {
     @include first-spacing($Bright-Yellow);
   }
+
   #{&}-body {
     color: $Grayish-Blue;
     line-height: 1.5rem;
@@ -36,10 +38,12 @@ main {
 .second {
   background-color: $Cyan;
   padding: 2rem;
+
   #{&}-heading {
     @include first-spacing($Light-Gray);
     font-size: 0.95rem;
   }
+
   #{&}-pricing {
     @include first-spacing($Grayish-Blue);
     & span {
@@ -48,10 +52,12 @@ main {
       margin-right: 0.5rem;
     }
   }
+
   #{&}-body {
     color: $Light-Gray;
     margin-bottom: 2rem;
   }
+
   button {
     width: 100%;
     padding: 1rem;
@@ -68,6 +74,7 @@ main {
   background-color: $Cyan2;
   padding: 2rem;
   color: $Light-Gray;
+
   #{&}-heading {
     @include first-spacing($Light-Gray);
   }
@@ -98,9 +105,11 @@ main {
   .first {
     grid-area: f;
   }
+
   .second {
     grid-area: s;
   }
+
   .third {
     grid-area: t;
   }
